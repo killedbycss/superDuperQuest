@@ -1,3 +1,5 @@
+/* Это BAZA */
+
 * {
   box-sizing: border-box;
 }
@@ -5,44 +7,470 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --w: #fff;
+  --r: #ff3300;
+  --y: #ffe500;
+  --p: #ff00fb;
+  --g: #00a13e;
+  --b: #0080ff;
+  --bl: #000;
+  --p1: #db5aff;
+  --y1: #ffcc00;
+  --g1: #00aa41;
+  --b1: #2d96ff;
+}
+
 body {
   width: 100vw;
-  height: 100vh;
   font-family: 'Truin', system-ui, sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: black;
 }
 
-#display {
+h2 {
+  font-size: 2vw;
+  text-align: right;
+  color: var(--w);
+}
+
+h3,
+a {
+  font-size: 1.5vw;
+  text-align: center;
+  color: var(--w);
+}
+
+/* Калм Три Дисплэй */
+
+.display {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-image: url(../images/Standart.png);
+  background-image: url(../images/displays/1920.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  pointer-events: none;
+  background-position: center;
 }
 
-#text {
+#padding {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding-top: 15vw;
-  padding-left: 16vw;
-  width: 100vw;
-  height: 100vh;
   flex-direction: column;
 }
 
-h1 {
-  font-size: 10vw;
-  color: white;
-  font-style: italic;
+#paddingTop {
+  height: 4vw;
 }
 
-h2 {
-  font-size: 3vw;
-  color: white;
-  text-align: center;
-  width: 10vw;
-  animation: light 2s ease-in forwards infinite;
+#paddingBot {
+  height: 10vw;
 }
+
+#column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60vw;
+  margin: 0 0 0 10.4vw;
+  background-color: var(--w);
+}
+
+.buttons {
+  /* position: fixed; */
+  /* display: flex; */
+  flex-direction: column;
+  top: 10vw;
+  left: 70vw;
+  align-items: center;
+}
+
+.button {
+  /* display: inline-block; */
+  position: fixed;
+  height: 10vw;
+  width: 10vw;
+  padding: 2vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* #p1 {
+  background-image: url(../images/test/Group\ 924.png);
+} */
+
+.p1 {
+  position: fixed;
+  background-image: url(../images/buttons/ver/1.webp);
+  width: 7.8vw;
+  height: 7.8vw;
+  /* background-size: cover; */
+  top: 13.2vw;
+  left: 79.75vw;
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.p2 {
+  position: fixed;
+  background-image: url(../images/buttons/ver/2.webp);
+  width: 7.8vw;
+  height: 7.8vw;
+  border: none;
+  background-color: #ffffff00;
+  top: 18.2vw;
+  left: 75vw;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p3 {
+  position: fixed;
+  background-image: url(../images/buttons/ver/3.webp);
+  width: 7.8vw;
+  height: 7.8vw;
+  border: none;
+  background-color: #ffffff00;
+  top: 18.2vw;
+  left: 85.5vw;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p4 {
+  position: fixed;
+  background-image: url(../images/buttons/ver/4.webp);
+  width: 7.8vw;
+  height: 7.8vw;
+  border: none;
+  background-color: #ffffff00;
+  top: 24.5vw;
+  left: 80vw;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p5 {
+  position: fixed;
+  background-image: url(../images/buttons/ver/5.webp);
+  width: 11vw;
+  height: 11vw;
+  border: none;
+  background-color: #ffffff00;
+  top: 16.5vw;
+  left: 78.25vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#a1 {
+  position: fixed;
+  top: 33vw;
+  left: 74.5vw;
+  background-image: url(../images/buttons/ver/left.webp);
+  width: 9vw;
+  height: 9vw;
+  border: none;
+  background-color: #ffffff00;
+  background-size: contain;
+}
+
+#a2 {
+  position: fixed;
+  background-image: url(../images/buttons/ver/right.webp);
+  width: 9vw;
+  height: 9vw;
+  border: none;
+  background-color: #ffffff00;
+  top: 33vw;
+  left: 83.25vw;
+  background-size: contain;
+}
+
+#centerRow {
+  display: flex;
+}
+
+/* Рэп-баттл с драконом, бро */
+
+#battle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bl);
+  width: 100%;
+  gap: 2vw;
+  /* height: 30vw; */
+}
+
+.char {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  width: 100%;
+}
+
+.battleIcon {
+  width: 7vw;
+  height: 7vw;
+  background-color: #ffffff00;
+}
+
+.charInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+#knight {
+  background-image: url(../images/back/1-2.webp);
+  background-size: cover;
+}
+
+#dragon {
+  background-image: url(../images/back/1-3.webp);
+  background-size: cover;
+}
+
+#knightInfo {
+  align-items: flex-end;
+}
+
+#dragonInfo {
+  align-items: flex-start;
+}
+
+.bar {
+  display: flex;
+  width: 16vw;
+  height: 4vw;
+  border: var(--w) solid 0.3vw;
+}
+
+.progress {
+  height: 100%;
+  width: 10vw;
+  background-color: var(--g);
+}
+
+#knightBar {
+  justify-content: flex-end;
+}
+
+.words {
+  display: flex;
+  justify-content: center;
+  padding: 1vw 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#knightWords {
+  background-color: var(--b1);
+}
+
+#dragonWords {
+  background-color: var(--p1);
+}
+
+/* Все мы встаем перед жизненным выбором */
+
+#choise {
+  display: flex;
+  flex-direction: column;
+}
+
+#key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: var(--y);
+  padding: 2vw;
+  gap: 1vw;
+  height: 38vw;
+  background-image: url(../images/back/1.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#win:active {
+  animation: win 1s;
+}
+
+.waste {
+  width: 7vw;
+  height: 7vw;
+  background-color: var(--bl);
+  cursor: pointer;
+}
+
+.waste1 {
+  width: 7vw;
+  height: 7vw;
+  background-color: var(--bl);
+  cursor: pointer;
+}
+
+.vars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw 0;
+  background-color: var(--p);
+  gap: 5vw;
+  width: 100%;
+  background-image: url(../images/back/2.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.select {
+  border: var(--w) dashed 0.3vw;
+  padding: 1vw;
+}
+
+.select:hover {
+  border: var(--w) solid 0.3vw;
+  padding: 1vw;
+}
+
+.selectIcon {
+  width: 5vw;
+  height: 5vw;
+  background-color: var(--b1);
+}
+
+.random1 {
+  width: 4vw;
+}
+
+.random2 {
+  width: 6vw;
+  width: 6vw;
+}
+
+.random3 {
+  width: 3vw;
+  width: 3vw;
+}
+
+.random4 {
+  background-color: var(--r);
+}
+
+/* Вопросики */
+
+#questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vw;
+  width: 100%;
+  background-color: var(--w);
+  padding: 0 5vw;
+  background-image: url(../images/back/2-1.webp);
+  background-size: cover;
+}
+
+#questRow {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.questText1 {
+  color: var(--r);
+  text-align: left;
+}
+
+#questText2 {
+  text-align: left;
+}
+
+#questSelect1 {
+  border: var(--br) 0.3vw dashed;
+  stroke-dasharray: 2px, 5px;
+}
+
+#questAns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+/* Да когда будет конец тут наконец */
+
+#allEndings {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: var(--y);
+  height: 100%;
+  width: 100%;
+  padding-bottom: 4vw;
+}
+
+#allEndings h2 {
+  color: var(--bl);
+}
+
+#endColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+}
+
+.endIcon {
+  height: 10vw;
+  width: 12vw;
+  background-image: url(../images/Logo.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.endIcon:active {
+  animation: icon 2s 1;
+}
+
+/* И конечно же упоминание себя любимого */
+
+#links {
+  background-color: var(--bl);
+  background-image: none;
+}
+
+#without {
+  border: none;
+}
+
+/* #panelCol {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-content: space-between;
+}
+
+#panel {
+  background-color: var(--w);
+} */
