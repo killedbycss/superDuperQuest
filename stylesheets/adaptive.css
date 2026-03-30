@@ -557,19 +557,19 @@
 
 @media screen and (max-width: 900px) {
   .p1 {
-    top: 77vw;
+    top: 81vw;
   }
   .p2 {
-    top: 91vw;
+    top: 95vw;
   }
   .p3 {
-    top: 66vw;
+    top: 70vw;
   }
   .p4 {
-    top: 77vw;
+    top: 81vw;
   }
   .p5 {
-    top: 79vw;
+    top: 8vw;
   }
   #a1 {
     top: 66vw;
@@ -586,74 +586,74 @@
   }
   .p2 {
     top: 101vw;
-    left: 26vw;
+    left: 30vw;
   }
   .p3 {
-    top: 75vw;
+    top: 83vw;
     left: 26vw;
   }
   .p4 {
-    top: 87vw;
+    top: 91vw;
     left: 40vw;
   }
   .p5 {
-    top: 78vw;
+    top: 82vw;
     left: 39.5vw;
   }
   #a1 {
-    top: 75vw;
+    top: 79vw;
     left: 61vw;
   }
   #a2 {
-    top: 96vw;
+    top: 100vw;
     left: 61.5vw;
   }
 }
 
 @media screen and (max-width: 800px) {
   .p1 {
-    top: 98vw;
+    top: 102vw;
     left: 7vw;
     height: 22vw;
     width: 22vw;
     background-position: center;
   }
   .p2 {
-    top: 113vw;
+    top: 117vw;
     left: 22vw;
     height: 22vw;
     width: 22vw;
     background-position: center;
   }
   .p3 {
-    top: 84vw;
+    top: 88vw;
     left: 22vw;
     height: 22vw;
     width: 22vw;
     background-position: center;
   }
   .p4 {
-    top: 98vw;
+    top: 102vw;
     left: 38vw;
     height: 22vw;
     width: 22vw;
     background-position: center;
   }
   .p5 {
-    top: 100vw;
+    top: 104vw;
     left: 23vw;
     width: 18vw;
     height: 18vw;
     background-position: center;
   }
   #a1 {
-    top: 85vw;
+    top: 89vw;
     left: 62vw;
     width: 26vw;
     height: 26vw;
   }
   #a2 {
-    top: 109vw;
+    top: 113vw;
     left: 63vw;
     width: 26vw;
     height: 26vw;
@@ -662,91 +662,91 @@
 
 @media screen and (max-width: 750px) {
   .p1 {
-    top: 90vw;
+    top: 94vw;
   }
   .p2 {
-    top: 105vw;
+    top: 109vw;
   }
   .p3 {
-    top: 77vw;
+    top: 81vw;
   }
   .p4 {
-    top: 91vw;
+    top: 95vw;
   }
   .p5 {
-    top: 93vw;
+    top: 97vw;
   }
   #a1 {
-    top: 79vw;
+    top: 83vw;
   }
   #a2 {
-    top: 100vw;
+    top: 104vw;
   }
 }
 
 @media screen and (max-width: 700px) {
   .p1 {
-    top: 98vw;
+    top: 102vw;
   }
   .p2 {
-    top: 113vw;
+    top: 117vw;
   }
   .p3 {
-    top: 85vw;
+    top: 89vw;
   }
   .p4 {
-    top: 99vw;
+    top: 103vw;
   }
   .p5 {
-    top: 101vw;
+    top: 105vw;
   }
   #a1 {
-    top: 86vw;
+    top: 90vw;
   }
   #a2 {
-    top: 107vw;
+    top: 111vw;
   }
 }
 
 @media screen and (max-width: 750px) {
   .p1 {
-    top: 129.5vw;
+    top: 133.5vw;
     left: 18vw;
     width: 15vw;
     height: 15vw;
   }
   .p2 {
-    top: 141vw;
+    top: 145vw;
     left: 30vw;
     width: 15vw;
     height: 15vw;
   }
   .p3 {
-    top: 118vw;
+    top: 122vw;
     left: 30vw;
     width: 15vw;
     height: 15vw;
   }
   .p4 {
-    top: 129.5vw;
+    top: 133.5vw;
     left: 42vw;
     width: 15vw;
     height: 15vw;
   }
   .p5 {
-    top: 130vw;
+    top: 134vw;
     left: 30vw;
     width: 14vw;
     height: 14vw;
   }
   #a1 {
-    top: 117vw;
+    top: 121vw;
     left: 60vw;
     width: 22vw;
     height: 22vw;
   }
   #a2 {
-    top: 136vw;
+    top: 140vw;
     left: 60vw;
     width: 22vw;
     height: 22vw;
@@ -755,43 +755,43 @@
 
 @media screen and (max-width: 600px) {
   .p1 {
-    top: 136.5vw;
+    top: 140.5vw;
     left: 18vw;
     width: 14vw;
     height: 14vw;
   }
   .p2 {
-    top: 148vw;
+    top: 152vw;
     left: 30vw;
     width: 14vw;
     height: 14vw;
   }
   .p3 {
-    top: 125vw;
+    top: 129vw;
     left: 27vw;
     width: 14vw;
     height: 14vw;
   }
   .p4 {
-    top: 136.5vw;
+    top: 140.5vw;
     left: 42vw;
     width: 14vw;
     height: 14vw;
   }
   .p5 {
-    top: 136vw;
+    top: 140vw;
     left: 30vw;
     width: 14vw;
     height: 14vw;
   }
   #a1 {
-    top: 124vw;
+    top: 128vw;
     left: 60vw;
     width: 22vw;
     height: 22vw;
   }
   #a2 {
-    top: 143vw;
+    top: 147vw;
     left: 60vw;
     width: 22vw;
     height: 22vw;
@@ -800,7 +800,7 @@
 
 @media screen and (max-width: 500px) {
   .p1 {
-    top: 159.5vw;
+    top: 163.5vw;
     left: 15vw;
     width: 17vw;
     height: 17vw;
@@ -812,31 +812,31 @@
     height: 17vw;
   }
   .p3 {
-    top: 148vw;
+    top: 152vw;
     left: 27vw;
     width: 17vw;
     height: 17vw;
   }
   .p4 {
-    top: 160.5vw;
+    top: 164.5vw;
     left: 42vw;
     width: 17vw;
     height: 17vw;
   }
   .p5 {
-    top: 160vw;
+    top: 164vw;
     left: 27vw;
     width: 17vw;
     height: 17vw;
   }
   #a1 {
-    top: 147vw;
+    top: 151vw;
     left: 62vw;
     width: 23vw;
     height: 23vw;
   }
   #a2 {
-    top: 168vw;
+    top: 172vw;
     left: 62vw;
     width: 23vw;
     height: 23vw;
@@ -845,43 +845,43 @@
 
 @media screen and (max-width: 400px) {
   .p1 {
-    top: 197vw;
+    top: 201vw;
     left: 4vw;
     width: 24vw;
     height: 24vw;
   }
   .p2 {
-    top: 215vw;
+    top: 219vw;
     left: 20vw;
     width: 24vw;
     height: 24vw;
   }
   .p3 {
-    top: 180vw;
+    top: 184vw;
     left: 20vw;
     width: 24vw;
     height: 24vw;
   }
   .p4 {
-    top: 197vw;
+    top: 201vw;
     left: 38vw;
     width: 24vw;
     height: 24vw;
   }
   .p5 {
-    top: 199vw;
+    top: 203vw;
     left: 22vw;
     width: 20vw;
     height: 20vw;
   }
   #a1 {
-    top: 182vw;
+    top: 186vw;
     left: 65vw;
     width: 29vw;
     height: 29vw;
   }
   #a2 {
-    top: 208vw;
+    top: 212vw;
     left: 65vw;
     width: 29vw;
     height: 29vw;
