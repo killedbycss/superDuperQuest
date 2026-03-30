@@ -1,4 +1,4 @@
-<img src="images/back/1-1.webp">
+<img src="images/back/1.webp">
 <h1>Веб-плакат Мытро: Издание легенды</h1>
 
 <h2>Что это</h2>
